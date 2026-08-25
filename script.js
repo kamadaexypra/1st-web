@@ -10,3 +10,12 @@ function saludar() {
 
     document.getElementById("mensaje").textContent = "¡Hola, " + nombre + "!";
 }
+function comprobarEdad() {
+    let edad = document.getElementById("edad").value;
+
+    if (edad >= 18) {
+        document.getElementById("resultado").textContent = "Eres mayor de edad.";
+    } else {
+        document.getElementById("resultado").textContent = "Eres menor de edad.";
+    }
+}
