@@ -5,3 +5,8 @@ function cambiarTexto() {
 function cambiarColor() {
     document.body.style.backgroundColor = "lightblue";
 }
+function saludar() {
+    let nombre = document.getElementById("nombre").value;
+
+    document.getElementById("mensaje").textContent = "¡Hola, " + nombre + "!";
+}
